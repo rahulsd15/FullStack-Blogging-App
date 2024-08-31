@@ -100,14 +100,14 @@
 	</build>
 	
 	<distributionManagement>
-        <releasesrepository>
+        <repository>
             <id>maven-releases</id>
             <url>http://43.204.218.117:8081/repository/maven-releases/</url>
-        </releasesrepository>
-        <snapshotsRepository>
+        </repository>
+        <snapshotRepository>
             <id>maven-snapshots</id>
             <url>http://43.204.218.117:8081/repository/maven-snapshots/</url>
-        </snapshotsRepository>
+        </snapshotRepository>
     </distributionManagement>
 
 </project>
